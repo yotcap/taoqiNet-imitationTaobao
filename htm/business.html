@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8" />
+		<title>XXX商家主页</title>
+		<link rel="stylesheet" href="../css/business.css" />
+		<link rel="stylesheet" href="../css/bootstrap.css" />
+	</head>
+	<body>
+		<div id="toptop">
+			<div id="toptop_inner">
+				<div id="toptop_le">
+					Hi！XXX
+				</div>
+			</div>
+		</div>
+		<div id="header" class="big_body">
+			<div id="header_inner">
+				<div id="icon">
+					<a href="../home.html" title="打开新世界的大门" target="_blank">
+						<strong><span id="icon_font_chinese" class="icon_color icon_font">&nbsp;淘气网</span><br><span id="icon_font_letter" class="icon_color">TAOQI.COM</span></strong>
+					</a>
+				</div>
+				<div id="search_box">
+					<div id="search_box_inner">
+						<form class="form-inline">	
+							<input type="text" id="to_search" class="form-control input-lg" placeholder="输入查找内容"/>
+							<button type="submit" class="btn btn-warning btn-lg">搜索</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="b_body" class="big_body">
+			<div id="b_head" class="big_body">
+				<img src="../img/business/b19491001999_logo.jpg" alt="商家logo" >
+			</div>
+			<div id="b_title" class="big_body">
+				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+							<div class="carousel-inner" id="heart_img" role="listbox">
+								<!-- Indicators -->
+								<ol class="carousel-indicators">
+									<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+									<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+									<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+								</ol>
+								<!-- Wrapper for slides -->
+								<div class="item active">
+									<a href="#" >
+										<img src="../img/business/b19491001999_01.jpg" alt="this's 1 img" >
+									</a>
+								</div>
+								<div class="item">
+									<a href="#" >
+										<img src="../img/business/b19491001999_02.jpg" alt="this's 2 img" >
+									</a>
+								</div>
+								<div class="item">
+									<a href="#" >
+										<img src="../img/business/b19491001999_03.jpg" alt="this's 3 img" >
+									</a>
+								</div>
+							</div>
+							<!-- controls-->
+							<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
+							</a>
+						</div>	
+			</div>
+			<div id="b_content" class="big_body">
+				<div id="b_content_inner">
+					<div id="b_row1" class="b_row">
+						<div class="some_list">
+							<div class="thumbnail">
+								<img src="../img/li.svg" alt="some-list">
+								<h4>title</h4>
+								<p>list1-1row</p>
+							</div>
+						</div>
+						<div class="some_list">
+							<div class="thumbnail">
+								<img src="../img/li.svg" alt="some-list">
+								<h4>title</h4>
+								<p>list1-1row</p>
+							</div>
+						</div>
+						<div class="some_list">
+							<div class="thumbnail">
+								<img src="../img/li.svg" alt="some-list">
+								<h4>title</h4>
+								<p>list1-1row</p>
+							</div>
+						</div>
+						<div class="some_list">
+							<div class="thumbnail">
+								<img src="../img/li.svg" alt="some-list">
+								<h4>title</h4>
+								<p>list1-1row</p>
+							</div>
+						</div>
+						<div class="some_list">
+							<div class="thumbnail">
+								<img src="../img/li.svg" alt="some-list">
+								<h4>title</h4>
+								<p>list1-1row</p>
+							</div>
+						</div>
+					</div>
+					<div id="b_row2" class="b_row">
+						<div class="some_list">
+							<div class="thumbnail">
+								<img src="../img/li.svg" alt="some-list">
+								<h4>title</h4>
+								<p>list1-1row</p>
+							</div>
+						</div>
+						<div class="some_list">
+							<div class="thumbnail">
+								<img src="../img/li.svg" alt="some-list">
+								<h4>title</h4>
+								<p>list1-1row</p>
+							</div>
+						</div>
+						<div class="some_list">
+							<div class="thumbnail">
+								<img src="../img/li.svg" alt="some-list">
+								<h4>title</h4>
+								<p>list1-1row</p>
+							</div>
+						</div>
+						<div class="some_list">
+							<div class="thumbnail">
+								<img src="../img/li.svg" alt="some-list">
+								<h4>title</h4>
+								<p>list1-1row</p>
+							</div>
+						</div>
+						<div class="some_list">
+							<div class="thumbnail">
+								<img src="../img/li.svg" alt="some-list">
+								<h4>title</h4>
+								<p>list1-1row</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="per_content_foot">
+				<p>到底啦！</p>
+			</div>
+		</div>
+		<script src="../js/jquery.js"></script>
+		<script src="../js/main.js"></script>
+		<script type="text/javascript">
+			$(window).scroll(function (){
+				var scrollTop = parseFloat($(this).scrollTop()),
+					scrollHeight = $(document).height(),
+					windowHeight = parseFloat($(this).height()),
+					totalHeight = scrollTop + windowHeight;
+				var sourceNode = document.getElementById("b_row1");
+				var clonedNode = sourceNode.cloneNode(true);
+				var flagAddDiv = true;
+				if(flagAddDiv){
+					//卷起来的高度 + 窗口高度 >= 文档高度
+					if(scrollTop + windowHeight >= scrollHeight ){
+						setTimeout(function(){flagAddDiv = perAddDiv(clonedNode,sourceNode)},500);
+					}
+				}
+			});
+		</script>
+		<script src="../js/bootstrap.js"></script>
+	</body>
+</html>

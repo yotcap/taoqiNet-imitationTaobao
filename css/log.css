@@ -1,0 +1,59 @@
+@charset "utf-8";
+*{margin:0;padding:0;}
+body{background:#f2f2f2 !important;}
+a{color:#000 !important;}
+a:hover{text-decoration:none !important;}
+.big_body{width:1200px;}
+#header{height:100px;width:100%;margin:0;background:#fff;}
+#header_inner{height:120px;margin:0 auto 0 auto;}
+#icon{
+	width:20%;
+	float:left;
+	/* 	父元素的第一个子元素的margin-top如果碰不到有效的padding或border则不断找父元素  */
+	margin:10px 0px 0px 0px;
+	padding:0 0 0 100px;
+	font-family:Microsoft YaHei,tahoma,arial,Hiragino Sans GB,\\5b8b\4f53,sans-serif !important;
+}
+.icon_color{color:#e03636;}
+#icon_font_chinese{font-size:2.5em;}
+#icon_font_letter{font-size:1.5em;}
+#heart{height:600px;margin:0 auto;}
+#heart_inner{
+	width:1200px;
+	height:600px;
+	background:url(../img/log.jpg) no-repeat 0 0;
+	background-size:1200px 600px;
+	border-top:1px solid transparent;
+}
+.log_reg{
+	width:350px;
+	height:400px;
+	background:#fff;
+	margin:70px 150px 0 auto;
+	border-top:1px solid transparent;
+}
+#log{display:block;}
+#log_head{height:50px;margin:20px 0 0 30px;border-top:1px solid transparent;}
+#log_inner{height:200px;width:320px;margin:20px 0 0 30px;}
+.new_form_control{width:240px !important;height:45px !important;}
+#log_pwd{margin:30px 0 0 0;}
+#btn_log{margin:30px 0 0 0;width:280px;height:45px;color:#fff;background:#e03636;}
+#btn_log h4{margin:0 !important;}
+#log_foot{float:right;margin:15px 15px 0 auto;}
+#log_foot span{margin-left:8px;}
+#reg{display:none;}
+#reg_head{height:50px;margin:20px 0 0 30px;border-top:1px solid transparent;}
+#reg_inner{width:320px;height:200px;margin:20px 0 0 30px;}
+#reg_verifyCode{margin:30px 0 0 0;}
+.input-group-btn{width:auto !important;}
+.input_reg{width:150px !important;height:45px !important;}
+#btn_reg_getVerifyCode{height:45px;width:130px;}
+#btn_reg{margin:30px 0 0 0;width:280px;height:45px;color:#fff;background:#e03636;}
+#btn_reg h4{margin:0 !important;}
+#reg_foot{float:right;margin:15px 15px 0 auto;}
+
+#floor{
+	height:50px;
+	margin:50px auto 0 auto;
+	background:#edd0be;
+}

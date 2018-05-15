@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8" />
+		<title>XX-商品详情</title>
+		<link rel="stylesheet" href="../css/goods.css" />
+		<link rel="stylesheet" href="../css/bootstrap.css" />
+	</head>
+	<body>
+		<div id="toptop">
+			<div id="toptop_inner">
+				Hi！XXX
+			</div>
+		</div>
+		<div id="header" class="big_body">
+			<div id="icon">
+				<a href="../home.html" title="打开新世界的大门" target="_blank">
+					<strong><span id="icon_font_chinese" class="icon_color icon_font">&nbsp;淘气网</span><br><span id="icon_font_letter" class="icon_color">TAOQI.COM</span></strong>
+				</a>
+			</div>
+			<div id="search_box">
+				<div id="search_box_inner">
+					<form class="form-inline">	
+						<input type="text" id="to_search" class="form-control input-lg" placeholder="输入查找内容"/>
+						<button type="submit" class="btn btn-warning btn-lg">搜索</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div id="g_head" class="big_body g_head">
+			<div id="g_head_inner">
+				<div id="g_head_le" class="g_head">
+					<img src="../img/goods/g_1.jpg" alt="商品" >
+				</div>
+				<div id="g_head_ce" class="g_head">
+					<p id="g_title"><b>我们仨（杨绛 著）</b></p>
+					<p id="g_introduce">一百零五岁的杨绛，以简洁而沉重的语言，回忆了女儿钱瑗、丈夫钱钟书，一家三口那些快乐而艰难、爱与痛的日子。故事证明：家庭是人生的庇护所。</p>
+					<div id="g_price_father">
+						<p id="g_price">价 格 &nbsp;：</p>
+						<p id="g_price_num"><b>¥ 23.00</b></p>
+					</div>
+					<div class="clear"></div>
+					<div id="g_number">
+						<p>购买数量：</p>
+						<input type="text" value="1"/>
+					</div>
+					<div id="g_buy">
+						<button type="button" class="btn btn-default">加入购物车</button>
+						<button type="button" class="btn btn-warning">购买</button>
+					</div>
+				</div>
+				<div id="g_head_ri" class="g_head">
+					<p>店铺信息</p>
+					<p>店铺名称：XX书店</p>
+					<p>信誉积分：100</p>
+					<button type="button" onclick="window.open('business.html')">进入店铺</button>
+				</div>
+			</div>
+		</div>
+		<div id="g_detail" class="big_body g_d_height">
+			<div id="g_d_ce">			
+				<div id="g_d_ce_inner" class="g_d_height">
+					<!-- Nav tabs -->
+					<ul class="nav nav-tabs" role="tablist">
+						<li  role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">商品详情</a></li>
+						<li  role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">参数</a></li>
+						<li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">评论（2123423）</a></li>
+					</ul>
+					<!-- Tab panes -->
+					<div class="tab-content">
+						<div role="tabpanel" class="tab-pane active" id="home">
+							商品详情
+							<img src="../img/goods/g_d_1.jpg" alt="商品1" >
+						</div>
+						<div role="tabpanel" class="tab-pane" id="profile">详细参数</div>
+						<div role="tabpanel" class="tab-pane" id="messages">评论</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="g_foot">
+			<div id="g_foot_inner" class="big_body">
+				技术支持：淘气网
+			</div>
+		</div>
+	<script src="../js/jquery.js"></script>
+	<script src="../js/bootstrap.js"></script>
+	</body>
+</html>

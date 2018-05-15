@@ -1,0 +1,53 @@
+@charset "utf-8";
+*{margin:0;padding:0;}
+/*  body{} */
+a{text-decoration:none;color:#000 !important;}
+a:hover{text-decoration:none !important;}
+p{margin:10px 0 10px 0 !important;}
+h4{margin:10px 0 0 0 !important;}
+.big_body{width:1200px;}
+#toptop{background:#fff;}
+#toptop_inner{width:1000px;height:35px;margin:0 auto;line-height:35px;}
+#header{height:120px;margin:0 auto;border-bottom:1px solid #c3c3c3;}
+#icon{
+	width:20%;
+	float:left;
+	/* 	父元素的第一个子元素的margin-top如果碰不到有效的padding或border则不断找父元素  */
+	margin:20px 0px 0px 0px;
+	padding:0 0 0 100px;
+	font-family:Microsoft YaHei,tahoma,arial,Hiragino Sans GB,\\5b8b\4f53,sans-serif !important;
+}
+.icon_color{color:#e03636;}
+#icon_font_chinese{font-size:2.5em;}
+#icon_font_letter{font-size:1.5em;}
+#search_box{
+	float:left;
+	width:800px;
+	height:120px;
+}
+#search_box_inner{
+	width:100%;
+	margin:35px 0 0 15%;
+}
+#search_box_inner input{float:left;} 
+.col-xs-4{padding-left:0px !important;}
+.input-lg{width:450px !important;}
+.btn{width:100px !important;margin-left:20px;}
+#b_body{height:500px;margin:10px auto 0 auto;}
+#b_head{/*  height:150px;  */}
+#b_title{height:350px;margin:10px 0 0 0;}
+#b_title img{width:1200px;height:350px;}
+#b_content{height:700px;margin:10px 0 0 0;background:#fff;border-top:1px solid transparent;}
+#b_content_inner{margin:30px auto 0 30px;border-top:1px solid transparent;}
+.b_row{height:250px;margin:10px 0 0 0;text-align:center;border-bottom:1px solid transparent;}
+.some_list{
+	width:200px;
+	margin:0 0 0 20px;
+	background:#c3c3c3;
+	float:left;
+	border:1px dashed #000;
+}
+.some_list img{width:100%;}
+.some_list h2{border:0 !important;}
+#per_content_foot{height:30px;background:#e03636;text-align:center;display:none;}
+#per_content_foot p{font-size:16px;color:#fff;}

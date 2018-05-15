@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8" />
+		<title>欢迎登录</title>
+		<link rel="stylesheet" href="../css/log.css" />
+		<link rel="stylesheet" href="../css/bootstrap.css" />
+	</head>
+	<body>
+		<div id="header">
+			<div id="header_inner" class="big_body">
+				<div id="icon">
+					<a href="../home.html" title="打开新世界的大门" target="_blank">
+						<strong><span id="icon_font_chinese" class="icon_color icon_font">&nbsp;淘气网</span><br><span id="icon_font_letter" class="icon_color">TAOQI.COM</span></strong>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div id="heart" class="big_body">
+			<div id="heart_inner">
+				<div id="log" class="log_reg">
+					<div id="log_head">
+						<h4><strong>现在登录</strong></h4>
+					</div>
+					<div id="log_inner">
+						<form action="#" method="post" id="">
+							<div id="log_username" class="input-group">
+								<span class="input-group-addon glyphicon glyphicon-user" id="sizing-addon2"></span>
+								<input type="text" class="form-control new_form_control" placeholder="userName" aria-describedby="sizing-addon2">
+							</div>
+							<div id="log_pwd" class="input-group">
+								<span class="input-group-addon glyphicon glyphicon-lock" id="sizing-addon2"></span>
+								<input type="text" class="form-control new_form_control" placeholder="userPwd" aria-describedby="sizing-addon2">
+							</div>
+							<button type="button" id="btn_log" class="btn" onclick="window.open('person.html')"><h4>登&nbsp;录</h4></button>
+						</form>
+					</div>
+					<div id="log_foot">
+						<span><a href="#" data-toggle="modal" data-target="#forgetPwd">忘记密码？</a></span>
+						<span><a href="#" data-toggle="modal" data-target="#forgetAccount">忘记账号？</a></span>
+						<span><a href="#" onclick="logReg();">现在注册！</a></span>
+					</div>
+				</div>
+				<div id="reg" class="log_reg">
+					<div id="reg_head">
+						<h4><strong>欢迎注册</strong></h4>
+					</div>
+					<div id="reg_inner">
+						<div id="reg_phone" class="input-group">
+							<span class="input-group-addon glyphicon glyphicon-earphone" id="sizing-addon2"></span>
+							<input type="text" class="form-control new_form_control" placeholder="telephone" aria-describedby="sizing-addon2">
+						</div>
+						<div id="reg_verifyCode" class="input-group">
+							<input type="text" class="form-control input_reg" placeholder="验证码">
+							<span class="input-group-btn">
+								<button id="btn_reg_getVerifyCode" class="btn btn-default" type="button">获取验证码</button>
+							</span>
+						</div>
+						<button id="btn_reg" class="btn btn-default" type="button"><h4>注&nbsp;册</h4></button>
+					</div>
+					<div id="reg_foot">
+						<a href="#" onclick="regLog();">已有账号？现在登录！</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="floor" class="big_body">
+			关于我们
+		</div>
+		
+		<!-- Small modal -->
+		<div id="forgetAccount" class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+			<div class="modal-dialog modal-sm" role="document">	
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="myModalLabel">忘记账号了？</h4>
+					</div>
+					<div class="modal-body">
+						重新申请一个吧
+					</div>					
+				</div>
+			</div>
+		</div>
+		<div id="forgetPwd" class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+			<div class="modal-dialog modal-sm" role="document">	
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="myModalLabel">忘记密码了？</h4>
+					</div>
+					<div class="modal-body">
+						重新申请一个吧
+					</div>					
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		
+		
+		<script src="../js/log.js"></script>
+		<script src="../js/jquery.js"></script>
+		<script src="../js/bootstrap.js"></script>
+	</body>
+</html>

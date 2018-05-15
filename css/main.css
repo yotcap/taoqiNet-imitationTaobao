@@ -1,0 +1,137 @@
+@charset "utf-8";
+*{margin:0;padding:0;}
+/*  body{} */
+a{text-decoration:none;color:#000 !important;}
+a:hover{text-decoration:none !important;}
+div{display:block;}
+.clear{clear:both;}
+.text_space{padding:0px 6px;}
+.toptop_padding{padding-top:5px;}
+.big_body{width:1200px;}
+#toptop{
+	height:32px;
+	background:#e0e0e0;
+	border-bottom:1px #000;
+}
+.toptop_inner{
+	width:1000px;
+	height:31px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+}
+.toptop_inner_left{float:left;}
+.toptop_inner_right{
+	/*  父元素必须设置position  */
+	position:absolute;
+	top:0;
+	right:0;
+}
+.toptop_inner_right_float{float:left;}
+/*  #main_content{}#main_content_inner{}  没什么用，懒得删*/
+#header{
+	height:120px;
+	margin:0px auto 0px auto;
+	border-top:0px solid transparent;
+}
+#icon{
+	width:20%;
+	float:left;
+	/* 	父元素的第一个子元素的margin-top如果碰不到有效的padding或border则不断找父元素  */
+	margin:20px 0px 0px 0px;
+	padding:0 0 0 100px;
+	font-family:Microsoft YaHei,tahoma,arial,Hiragino Sans GB,\\5b8b\4f53,sans-serif !important;
+}
+.icon_color{color:#e03636;}
+#icon_font_chinese{font-size:2.5em;}
+#icon_font_letter{font-size:1.5em;}
+#search_box{
+	float:left;
+	width:800px;
+	height:120px;
+}
+#search_box_inner{
+	width:100%;
+	margin:35px 0 0 15%;
+}
+#search_box_inner input{float:left;} 
+.col-xs-4{padding-left:0px !important;}
+.input-lg{width:450px !important;}
+.btn{width:100px !important;margin-left:20px;}
+#dogdog{margin:auto;border-bottom:1px solid #e03636;}
+#dogdog_inner_left{background:#edd0be;height:30px;width:250px;float:left;line-height:30px;text-align:center;}
+.nav li a{width:80px;height:30px !important;margin:auto !important;}
+.nav-pills li a{border-radius:0px !important;}
+#my_heart{margin:auto;}
+.formmm{background:#000;height:450px;border-right:1px solid #fff;}
+#heart_le{width:250px;float:left;background:#e5e5e5;height:455px;}
+#heart_le_inner{margin:0;position:relative;}
+#heart_le_inner li{text-align:center;height:30px;line-height:30px;}
+#heart_le_inner li:hover{background:#c3c3c3;}
+#heart_le_inner a{margin:0px !important;padding:0 5px 0 5px !important;display:inline !important;}
+#heart_le_inner a:hover{color:#e03636 !important;}
+#heart_menu{
+	display:none;
+	width:600px;
+	height:455px;
+	background:#fff;
+	position:absolute;
+	left:250px;
+	top:0px;
+	background:#e5e5e5;
+	border:3px solid #e03636;
+	z-index:20;
+}
+/*  主菜单数据  */
+#data0{display:none;}#data1{display:none;}#data2{display:none;}#data3{display:none;}#data4{display:none;}
+#data5{display:none;}#data6{display:none;}#data7{display:none;}#data8{display:none;}
+.data_row1{width:300px;height:150px;background:#fff;border-bottom:1px solid #000;}
+.data_row2{width:300px;height:150px;background:#fff;border-bottom:1px solid #000;}
+.data_row3{width:300px;height:140px;background:#fff;}
+#heart_ce{width:700px;float:left;margin:5px 0 0 5px;height:450px;}
+#heart_img img{height:450px !important;}
+#heart_ri{width:235px;float:right;margin:8px 0 0 8px;background:#fff;height:442px;}
+#heart_ri_inner{text-align:center;margin:50px 0 0 0;}
+#heart_ri_inner p{margin:15px;}
+#heart_ri_inner button{width:80px !important;margin-left:0px !important;}
+.img_touxiang{width:100px;}
+#buybuy{
+	height:230px;
+	background:#edd0be;
+	margin:10px auto 0 auto;
+	position:relative;
+}
+#buybuy_inner{border-top:0px solid transparent;}
+#buybuy_head{margin:0 0 0 20px;height:50px;padding-top:10px;}
+#buybuy_inner h2{border-bottom:1px solid #000;margin-top:0 !important;}
+#buybuy_inner h2 a{color:#e03636 !important;}
+#buybuy_content{margin:15px 0 0 100px;}
+.buybuy_list{width:200px;height:150px;border:1px solid;float:left;margin-left:30px;}
+.buybuy_list img{width:100%;height:100%;}
+#floor{height:800px;margin:10px auto 0 auto;background:#fff;}
+#floor_inner{border-top:1px solid transparent;}
+#floor_inner h2{border-bottom:1px solid #000;margin:10px 0 0 0 !important;}
+#floor_inner h2 a{color:#e03636 !important;}
+#floor_head{margin:10px 0 0 20px;}
+#floor_content{margin:0 auto;display:block;width:1100px;}
+.some_list{
+	width:200px;
+	height:270px;
+	margin:0 0 0 20px;
+	background:#c3c3c3;
+	float:left;
+}
+.some_list img{width:200px;height:200px !important;}
+.some_list:hover{border:1px solid;margin:-1px 0 0 20px;}
+.floor_row{margin:40px 0 0 0;text-align:center;}
+#goods_title{margin:10px 0 0 0;}
+#goods_title:hover{color:#e03636;}
+#goods_price{margin:5px 0 0 0;color:#e03636;}
+#footfoot{
+	margin:0 auto;
+	height:40px;
+	display:none;
+	background:#edd0be;
+	text-align:center;
+}
+#footfoot h3{margin:0 !important;}

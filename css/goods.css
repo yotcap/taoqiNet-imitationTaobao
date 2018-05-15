@@ -1,0 +1,62 @@
+@charset "utf-8";
+*{margin:0;padding:0;}
+/*  body{} */
+a{text-decoration:none;color:#000 !important;}
+a:hover{text-decoration:none !important;}
+.big_body{width:1200px;}
+.clear{clear:both;}
+#toptop{height:30px;background:#fff;line-height:30px;}
+#toptop_inner{width:1000px;margin:0 auto;}
+#header{
+	height:120px;
+	margin:0px auto 0px auto;
+	border-top:0px solid transparent;
+	border-bottom:2px solid #e03636;
+}
+#icon{
+	width:20%;
+	float:left;
+	margin:20px 0px 0px 0px;
+	padding:0 0 0 100px;
+}
+.icon_color{color:#e03636;}
+#icon_font_chinese{font-size:2.5em;}
+#icon_font_letter{font-size:1.5em;}
+#search_box{
+	float:left;
+	width:800px;
+	height:120px;
+}
+#search_box_inner{
+	width:100%;
+	margin:35px 0 0 15%;
+}
+#search_box_inner input{float:left;} 
+.col-xs-4{padding-left:0px !important;}
+.input-lg{width:450px !important;}
+.btn{width:100px !important;margin-left:20px;}
+.g_head{height:500px;}
+#g_head{margin:20px auto 0 auto;background:#fff;}
+#g_head_le{width:380px;float:left;text-align:center;}
+#g_head_le img{width:350px;height:350px;border:1px solid;}
+#g_head_ce{width:620px;float:left;border-top:1px solid transparent;}
+#g_title{margin:40px 0 0 20px;font-size:18px;}
+#g_introduce{margin:10px 40px 0 20px;color:#7e7e7e;font-size:14px;}
+#g_price_father{margin:40px 0 0 20px;border-top:1px solid transparent;}
+#g_price{float:left;margin:0 !important;}
+#g_price_num{margin:-8px 0 0 80px;font-size:22px;color:#e03636;}
+#g_number{margin:20px 0 0 20px;}
+#g_number p{float:left;margin:3px 0 0 0 !important;}
+#g_number input{width:50px;text-align:center;}
+#g_buy{margin:50px 0 0 20px;}
+#g_head_ri{width:200px;float:left;border:1px solid #e5e5e5;}
+#g_head_ri p{margin:0 !important;}
+.g_d_height{height:auto;}
+#g_detail{margin:20px auto 0 auto;background:#fff;}
+#g_d_ce_inner{width:800px;margin:0 auto;border-left:1px solid #e5e5e5;border-right:1px solid #e5e5e5;}
+#g_d_ce_inner li a{padding:10px 20px 10px 20px;background:#fff;}
+#g_d_ce_inner li.active a{padding:10px 20px 10px 20px;background:#edd0be;}
+#g_d_ce_inner img{margin-top:20px;}
+.nav-tabs > li {margin-bottom:0 !important;}
+#g_foot{height:150px;margin:20px auto 0 auto;background:#000;}
+#g_foot_inner{height:150px;margin:0 auto;color:#fff;}

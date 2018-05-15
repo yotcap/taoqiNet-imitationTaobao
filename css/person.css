@@ -1,0 +1,83 @@
+@charset "utf-8";
+*{margin:0;padding:0;}
+a{text-decoration:none;color:#000 !important;}
+a:hover{text-decoration:none !important;}
+h4{margin:0 !important;}
+.big_body{width:1200px;}
+.clear{clear:both;}
+#toptop{
+	height:32px;
+	background:#e0e0e0;
+	border-bottom:1px #000;
+}
+#toptop_inner{
+	width:1200px;
+	height:31px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	line-height:31px;
+	background:#e0e0e0;
+}
+#header{height:120px;margin:0 auto;background:#e03636;color:#fff;}
+#bodybody{height:600px;margin:0 auto;background:#edd0be;}
+#bodybody_le{width:200px;height:600px;background:#fff;float:left;}
+#bodybody_le_head{
+	height:45px;
+	margin:0 auto;
+	font-size:18px;
+	line-height:45px;
+	text-align:center;
+	border-bottom:1px solid;
+}
+#bodybody_le_list{margin:10px 0 0 0;}
+#bodybody_le_list li{text-align:center;height:30px;line-height:30px;}
+#bodybody_le_list a{margin:0px !important;padding:0 5px 0 5px !important;display:inline !important;}
+#bodybody_le_list a:hover{color:#e03636 !important;}
+.color_red{color:#e03636;}
+#bodybody_content{width:1000px;height:600px;float:left;}
+#per_content_row{
+	width:850px;
+	height:250px;
+	margin:40px 0 0 60px;
+	border:2px solid #c3c3c3;
+}
+#per_detail{
+	width:300px;
+	height:150px;
+	margin:50px 0 0 40px;
+	border:1px solid #ff534d;
+	float:left;
+}
+#per_detail img{width:120px;height:120px;border:2px solid #fff;margin:15px 0 0 10px;float:left;}
+#per_detail_word{margin:20px 0 0 140px;}
+#per_detail_word span{width:150px;margin:8px 0 0 0;float:left;}
+#bodybody_oraders{height:600px;margin:0 auto;background:#fff;}
+#per_wealth{
+	width:350px;
+	height:150px;
+	margin:50px 0 0 40px;
+	border:1px solid #ff534d;
+	float:left;
+}
+#per_wealth_inner{width:120px;height:auto;}
+#per_wealth_inner span{width:130px;margin:8px 0 0 0;float:left;}
+#per_oraders_row{
+	width:900px;
+	height:300px;
+	margin:40px 0 0 40px;
+	border-bottom:1px solid;  
+}
+#per_oraders_row_head{
+	width:898px;
+	height:45px;
+	background:#c3c3c3;
+	text-align:center;
+}
+#table_th tr th{border-right:1px solid;}
+#oraders_id{width:150px;}
+/*  #oraders_content{width:300px;}  */
+#oraders_receiver{width:130px;}
+#oraders_price{width:110px;}
+#oraders_status{width:90px;}
+#oraders_operating{width:100px;border-right:transparent !important;}
