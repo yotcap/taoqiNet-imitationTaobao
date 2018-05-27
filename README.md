@@ -3,4 +3,4 @@ A shopping site that mimics Taobao
 
 JQ+Bootstrap
 
-[demo](https://yotcap.github.io/taoqiNet-imitationTaobao/home.html)
+[项目地址](https://yotcap.github.io/taoqiNet-imitationTaobao/home.html)
